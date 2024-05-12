@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/shangpinfenlei/list",
+    "pages/shangpinfenlei/add-or-update",
+    "pages/shangpinfenlei/detail",
+    "pages/shangpinxinxi/list",
+    "pages/shangpinxinxi/add-or-update",
+    "pages/shangpinxinxi/detail",
+    "pages/goumaixinxi/list",
+    "pages/goumaixinxi/add-or-update",
+    "pages/goumaixinxi/detail",
+    "pages/huiyuankashenqing/list",
+    "pages/huiyuankashenqing/add-or-update",
+    "pages/huiyuankashenqing/detail",
+    "pages/huiyuanka/list",
+    "pages/huiyuanka/add-or-update",
+    "pages/huiyuanka/detail",
+    "pages/baoxiangxinxi/list",
+    "pages/baoxiangxinxi/add-or-update",
+    "pages/baoxiangxinxi/detail",
+    "pages/jishixinxi/list",
+    "pages/jishixinxi/add-or-update",
+    "pages/jishixinxi/detail",
+    "pages/xiangmudingdan/list",
+    "pages/xiangmudingdan/add-or-update",
+    "pages/xiangmudingdan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussshangpinxinxi/list",
+    "pages/discussshangpinxinxi/add-or-update",
+    "pages/discussshangpinxinxi/detail",
+    "pages/discussbaoxiangxinxi/list",
+    "pages/discussbaoxiangxinxi/add-or-update",
+    "pages/discussbaoxiangxinxi/detail",
+    "pages/discussjishixinxi/list",
+    "pages/discussjishixinxi/add-or-update",
+    "pages/discussjishixinxi/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的足浴城消费系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "公告资讯"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
